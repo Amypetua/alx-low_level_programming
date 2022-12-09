@@ -1,7 +1,7 @@
-#includie <stdio>
+#include <stdio.h>
 
 /**
- * main - print a line of code using puts
+ * main - Entry poit
  *
  * Return: 0
  */
@@ -9,4 +9,4 @@
  {
 	 puts("\"Programming is like building a multilingual puzzle");
 	 return (0);
- }
+}
