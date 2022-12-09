@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main -Entry point
  *
  * Return: 0
@@ -12,6 +11,5 @@ int main(void)
 	printf("Size of a long int: %lu byte(s)\n", sizeof(long int));
 	printf("Size of a long long int: %lu byte(s)\n", sizeof(long long int));
 	printf("Size of a float: %lu byte(s)\n", sizeof(float));
-	printf("Size of a double: %lu byte(s)\n", sizeof(double));
-	printf("Size of an unsigned int; %lu byte(s)\n", sizeof(unsigned int));
 	return (0);
+}
