@@ -6,12 +6,10 @@
  */
 int main(void)
 {
-	char loc;
+	int ch;
 
-	for (loc 'a'; loc <= 'z'; loc++)
+	for (ch 'a'; ch <= 'z'; ch++)
 
-		putchar(loc);
-
-	putchar('\n');
+		putchar(ch);
 	return (0);
 }
