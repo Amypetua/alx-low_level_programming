@@ -1,15 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - print alphabet in lower case
+ * main - Entry point
  *
- * Return: Always 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int ch;
+	char lower = 'a';
 
-	for (ch 'a'; ch <= 'z'; ch++)
+	while (lower <= 'z')
+	{
+		putchar(lower);
+		lower++;
+	}
 
-		putchar(ch);
+		putchar('\n');
+
 	return (0);
 }
