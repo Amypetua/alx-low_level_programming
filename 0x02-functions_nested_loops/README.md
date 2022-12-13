@@ -1,1 +1,1 @@
-C - variables: functions; nested loops
+This directory contains C - variables, functions and nested loops
