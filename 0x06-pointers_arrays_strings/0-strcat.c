@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * *_strcat - concatenates two strings
  * @dest: pointer destination
@@ -10,9 +9,9 @@
 
 char *_strcat(char *dest, char *src)
 {
-int a = -1, i;
-for (i = 0; dest[i] != '\0'; i++)
-;a
+	int a = -1, i;
+
+	for (i = 0; dest[i] != '\0'; i++)
 
 do {
 	a++;
