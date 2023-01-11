@@ -1,20 +1,3 @@
-
-StezzyBeauty
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x0B-malloc_free/2-str_concat.c
-@StezzyBeauty
-StezzyBeauty task 2
- 1 contributor
-86 lines (78 sloc)  1.4 KB
 #include "main.h"
 #include <stdlib.h>
 
