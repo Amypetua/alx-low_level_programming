@@ -1,20 +1,3 @@
-
-StezzyBeauty
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x0C-more_malloc_free/101-mul.c
-@StezzyBeauty
-StezzyBeauty advanced task 2
- 1 contributor
-99 lines (91 sloc)  1.9 KB
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
