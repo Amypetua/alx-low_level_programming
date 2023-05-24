@@ -8,7 +8,7 @@ OBJ = $(SRC:.c=.o)
 
 NAME = school
 
-RM = rm -rf
+RM = rm -f
 
 CFLAG = -Wall -Werror -Wextra -pedantic
 
@@ -29,9 +29,7 @@ oclean:
 	$(RM) $(OBJ)
 
 # Deletes all Emacs and Vim temporary files, the executable, and the object files
-fclean:
-	$(RM) *~ $(NAME)
-	$(RM) $(OBJ)
+fclean: clean oclean
 
 # Forces recompilation of all source files
 re: oclean all
