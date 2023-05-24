@@ -1,0 +1,1 @@
+This directory contains solutions to alx project on Makefile. In this project students are exposed on how to use 'make' to compile and manage a set of source code applications and files. Make reads its instruction from makefile.
