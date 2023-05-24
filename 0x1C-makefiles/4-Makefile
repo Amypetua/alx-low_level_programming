@@ -4,11 +4,11 @@ SRC = main.c school.c
 NAME = school
 OBJ = $(SRC:.c=.o)
 RM = rm -f
-CFLAG = -Wall -Werror -Wextra -pedantic
+CFLAGS = -Wall -Werror -Wextra -pedantic
 
 # Building the executable file
 all: $(OBJ)
-	$(CC) $(CFLAG) $(OBJ) -o $(NAME)
+	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
 
 # Prerequisite of the special target
 .PHONY =  clean oclean fclean re
