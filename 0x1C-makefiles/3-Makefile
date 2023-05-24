@@ -1,0 +1,32 @@
+# Creating of the makefile
+
+CC = gcc
+
+SRC = main.c school.c
+
+OBJ = $(SRC:.c=.o)
+
+NAME = school
+
+RM = rm -f
+
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+.PHONY: clean oclean fclean re
+
+# Deleting of all executable files
+
+clean:
+	$(RM) *~ $(NAME)
+
+# Deletin of the object files
+oclean:
+	$(RM) $(OBJ)
+
+# Deleting of both executable and object files
+fclean:
+	$(RM) *~ $(NAME)
+	$(RM) $(OBJ)
+
+# Compilation of all source files
+re: oclean all
