@@ -1,11 +1,12 @@
 # The variables
 CC = gcc
 SRC = main.c school.c
-OBJ = $(SRC:.c=.o)
 NAME = school
+OBJ = $(SRC:.c=.o)
 CFLAGS = -Wall -Werror -Wextra -pedantic
 
-.PHONY = clean oclean fclean re
+# Rules
+.PHONY = all clean oclean fclean re
 
 # Building the executable files
 all: m.h $(OBJ)
