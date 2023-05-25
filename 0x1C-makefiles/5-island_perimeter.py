@@ -3,7 +3,12 @@
 """ The perimeter of Island """
 
 def island_perimeter(grid):
-    """
+    """ 
+    A function that returns the perimeter of the island described in grid
+    Args:
+        grid: Matrix that emulates the island grid
+        Return:
+            perimeter of the island
     """
     count = 0
     connect_horizontal = 0
@@ -28,7 +33,7 @@ def island_perimeter(grid):
                     connect_vertical += 1
                     
     total = count * 4
-    horizontal = connect_horizintal * 2
+    horizontal = connect_horizontal * 2
     vertical = connect_vertical * 2
     perimeter = total - horizontal - vertical
-    return preimeter
+    return perimeter
